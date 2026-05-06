@@ -18,6 +18,9 @@ dist/schemas
 !.env.sample
 !.env.example
 
+# Local config (use config.sample.yaml as template)
+config.yaml
+
 # Logs
 logs/
 *.log
