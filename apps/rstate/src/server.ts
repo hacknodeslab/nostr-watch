@@ -125,7 +125,7 @@ export class CVMServer {
     this.ingestionService = new IngestionService(
       this.ingestionPool,
       this.core,
-      24 * 3600,  // 24 hour historical window
+      30 * 24 * 3600,  // 30 day historical window
       this.metrics  // Pass metrics for event recording
     )
     // DISABLED: Subscription system
